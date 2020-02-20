@@ -1,0 +1,12 @@
+.about-body {
+    height: 50%;
+}
+
+#about {
+    transition: .2s;
+    padding-bottom: 80px;
+}
+
+.about-title-head {
+    padding-top: 30px;
+}

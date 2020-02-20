@@ -1,0 +1,7 @@
+#counter {
+    background-image: url(/images/about/bg1.jpg);
+    height: 70vh;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 60px 0;
+  }

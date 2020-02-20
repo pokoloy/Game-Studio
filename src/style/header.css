@@ -1,0 +1,90 @@
+.bg-dark {
+    background: transparent !important;
+}
+.bg-dark.scolled {
+    background: #E0B50C !important;
+    border-bottom: 3px solid;
+    border-bottom-color: #000;
+    opacity: 0.9;
+    transition: .5s;
+}
+
+.gs-logo {
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+}
+
+.bg-dark.scolled .gs-logo {
+    width: 40px;
+    height: 40px;
+    transition: .8s;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 2px solid;
+    border-color: #E0B50C;
+}
+
+.bg-dark.scolled .custom-toggler.navbar-toggler {
+    border: 2px solid;
+    border-color: #000;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225,190,37, 10)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bg-dark.scolled .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.navbar-dark .navbar-text {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 0 15px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E0B50C;
+    transform: scale(1.1) rotate(370deg);
+}
+
+.bg-dark.scolled .navbar-nav .nav-link {
+    color: #000;
+}
+
+@media screen and (max-width: 767.98px) {
+    .navbar-collapse {
+        margin-top: 20px;
+        border-top: 2px solid;
+        border-top-color: #000;
+        opacity: 0.8;
+        background: #E0B50C !important;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        margin-bottom: 10px;
+        padding: 0 15px;
+        font-size: 1.1rem;
+        color: #000;
+        font-weight: 400;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #fff;
+        transform: none;
+    }
+    .custom-toggler.navbar-toggler {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+   
+}

@@ -1,0 +1,25 @@
+.team-body {
+  padding-bottom: 80px;
+}
+
+.team-title {
+    padding-top: 30px;
+}
+
+.row {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 632px) {
+      .team-name {
+        text-align: center;
+        margin-top: 15px;
+      }
+      .team-name2 {
+        text-align: center;
+      }
+      .team-details {
+        padding: 0 30px;
+      }
+}

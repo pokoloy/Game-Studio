@@ -1,0 +1,105 @@
+#home
+{
+   background:url(/images/carousel/bg1.jpg) no-repeat center center fixed;
+   display: table;
+   height: 82vh;
+   position: relative;  
+   width: 100%;
+   background-size: cover;
+   color: #fff;
+   right: 0;
+
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 800%;
+    font-weight: 200;
+}
+
+/* .cover-btn1 {
+    margin-right: 10px;
+    border-radius: 12px;
+    border-color: #F7D210;
+    width: 200px;
+    height: 55px;
+    color: #F7D210;
+} */
+
+.cover-btn2 {
+    padding-top: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid;  
+    border-radius: 12px;
+    background-color: #E0B50C;
+    border-color: #C99800;
+    font-size: 200%;
+    width: 280px;
+    height: 70px;
+}
+
+/* .cover-btn1:hover {
+    margin-right: 10px;
+    border-radius: 12px;
+    background-color: #000;
+    border-color: #F7D210;
+    width: 200px;
+    height: 55px;
+    color: #F7D210
+} */
+
+.cover-btn2:hover {
+    padding-top: 8px;
+    margin-right: 10px;
+    border-radius: 12px;
+    background-color: #C8A91C;
+    border-color: #000;
+    font-size: 200%;
+    width: 280px;
+    height:70px;
+}
+
+@media screen and (max-width: 715px) {
+    .cover-btn1, .cover-btn2 {
+        margin-bottom: 15px;
+    }
+    .landing-text h1 {
+        font-size: 550%;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .cover-btn1, .cover-btn2 {
+        margin-bottom: 10px;
+    }   
+}
+
+
+.jumbotron {
+    background-color: black;
+    color: #fff;
+    border-bottom: 4px solid;
+    border-bottom-color: #F7D210;
+}
+
+.j-btn {
+    border-color: #F7D210;
+    background-image: url(/images/cover/google_play.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 275px;
+    height: 80px;
+}
+
+.j-btn:hover {
+    border: 2px;
+    border-color: #F7D210;
+    border-style: outset;
+}

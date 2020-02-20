@@ -1,0 +1,21 @@
+.feature-body {
+    background-color: #282828;
+    color: beige;
+    border-bottom: 4px solid;
+    border-bottom-color: #F7D210;
+    padding-bottom: 80px;
+}
+
+.feature-title {
+    color: #F7D210;
+    padding-top: 28px;
+}
+
+.feature-text {
+    padding-top: 15%;
+}
+
+.feature-img {
+    height: 400px;
+    width: 220px;
+}
